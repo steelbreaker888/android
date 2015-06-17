@@ -566,7 +566,7 @@
   <project path="bionic" name="OpenDesireProject/android_bionic" remote="github" revision="cm-12.1" />
   <project path="system/core" name="OpenDesireProject/android_system_core" remote="github" revision="cm-12.1" />
   <project path="system/vold" name="OpenDesireProject/android_system_vold" remote="github" revision="cm-12.1" />
-  <project path="hardware/qcom/audio-caf/msm7x30" name="Evervolv/android_hardware_qcom_audio-legacy" remote="github" revision="lollipop-5.1-8960" />
+  <project path="hardware/qcom/audio-caf/msm7x30" name="Evervolv/android_hardware_qcom_audio-caf" remote="github" revision="lollipop-5.1-8960" />
   <project path="hardware/qcom/display-caf/msm7x30" name="glacierpop/android_hardware_qcom_display-legacy" remote="github" revision="lollipop" />
   <project path="hardware/qcom/media-caf/msm7x30" name="glacierpop/android_hardware_qcom_media-legacy" remote="github" revision="lollipop" />
   <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" remote="github" revision="lollipop-5.1" />
