@@ -23,10 +23,8 @@
   </project>
 
   <project path="android" name="CyanogenMod/android" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -292,7 +290,6 @@
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
-  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
@@ -560,5 +557,7 @@
   <project path="device/htc/glacier" name="glacierpop2/android_device_htc_glacier" remote="github" revision="lollipop-5.1" />
   <project path="device/htc/msm7x30-common" name="glacierpop2/android_device_htc_msm7x30-common" remote="github" revision="lollipop-5.1" />
   <project path="vendor/htc" name="Evervolv/android_vendor_htc" remote="github" revision="lollipop-5.1" />
+  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
+  <project path="external/sepolicy" name="glacierpop2/android_external_sepolicy" remote="github" revision="cm-12.1" />
 
 </manifest>
