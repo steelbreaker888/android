@@ -31,12 +31,27 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/glacierpop2/android.git -b cm-12.1
+    repo init -u git://github.com/steelbreaker888/android.git -b cm-12.1
 
 Then to sync up:
 
     repo sync
 
+Configure Build
+
+Now, your environment must be configured to build specifically for your device. To set up your build environment:
+
+    . build/envsetup.sh
+    lunch
+
+select your device
+
+    mka bakon
+
+clean source 
+    
+    mka clobber
+    
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
 For more information on this Github Organization and how it is structured, 
