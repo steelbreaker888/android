@@ -550,12 +550,12 @@
   <project path="system/core" name="glacierpop2/android_system_core" remote="github" revision="cm-12.1" />
   <project path="system/vold" name="glacierpop2/android_system_vold" remote="github" revision="cm-12.1" />
   <project path="hardware/qcom/audio-caf/msm7x30" name="Evervolv/android_hardware_qcom_audio-caf" remote="github" revision="lollipop-5.1-8960" />
-  <project path="hardware/qcom/display-caf/msm7x30" name="glacierpop2/android_hardware_qcom_display-legacy" remote="github" revision="lollipop-5.1" />
-  <project path="hardware/qcom/media-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_media-legacy" remote="github" revision="cm-12.1-legacy-msm7x30" />
+  <project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" remote="github" revision="lollipop-5.1" />
+  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" remote="github" revision="cm-12.1-legacy-msm7x30" />
   <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" remote="github" revision="lollipop-5.1" />
   <project path="kernel/htc/msm7x30-3.0" name="Evervolv/android_kernel_htc_msm7x30-3.0" remote="github" revision="lollipop-5.1" />
   <project path="device/htc/glacier" name="glacierpop2/android_device_htc_glacier" remote="github" revision="lollipop-5.1" />
-  <project path="device/htc/msm7x30-common" name="glacierpop2/android_device_htc_msm7x30-common" remote="github" revision="lollipop-5.1" />
+  <project path="device/htc/msm7x30-common" name="Evervolv/android_device_htc_msm7x30-common" remote="github" revision="lollipop-5.1" />
   <project path="vendor/htc" name="Evervolv/android_vendor_htc" remote="github" revision="lollipop-5.1" />
   <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-5.1" />
   <project path="external/sepolicy" name="glacierpop2/android_external_sepolicy" remote="github" revision="cm-12.1" />
